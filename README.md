@@ -1,11 +1,11 @@
-# Buffalo Sabres All-Time Leaders
+# Panthers DataBase
 
 This project builds a FastAPI website that scrapes the Buffalo Sabres career leaders page from Hockey Reference and stores the results in a local SQLite database.
 
 ## Features
 
-- Scrapes career leader categories from `https://www.hockey-reference.com/teams/BUF/leaders_career.html`
-- Stores scraped leader data in `sabres_leaders.db`
+- Scrapes career leader categories from `https://www.hockey-reference.com/teams/FLA/leaders_career.html`
+- Stores scraped leader data in `panthers_db_leaders.db`
 - Serves an HTML dashboard with all leader categories
 - Provides a JSON API at `/api/leaders`
 - Supports manual refresh via `/api/scrape`
