@@ -9,10 +9,10 @@ from sqlmodel import Field, SQLModel, Session, create_engine, select, delete
 
 from app.scraper import scrape_leaders
 
-DATABASE_URL = "sqlite:///./sabres_leaders.db"
-DB_FILE = Path("./sabres_leaders.db")
+DATABASE_URL = "sqlite:///./panthers_leaders.db"
+DB_FILE = Path("./panthers_leaders.db")
 
-app = FastAPI(title="Buffalo Sabres Career Leaders")
+app = FastAPI(title="Florida Panthers Career Leaders")
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 

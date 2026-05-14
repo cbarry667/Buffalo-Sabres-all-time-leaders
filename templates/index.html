@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buffalo Sabres All-Time Leaders</title>
+    <title>Florida Panthers All-Time Leaders</title>
     <style>
         body {font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0f2040; color: #f1f1f1;}
         .page {max-width: 1100px; margin: 0 auto; padding: 24px;}
@@ -22,12 +22,12 @@
 <body>
     <div class="page">
         <header>
-            <h1>Buffalo Sabres Career Leaders</h1>
-            <p class="meta">Scraped from <a href="https://www.hockey-reference.com/teams/BUF/leaders_career.html" target="_blank" rel="noreferrer">Hockey Reference career leaders</a>.</p>
+            <h1>Florida Panthers Career Leaders</h1>
+            <p class="meta">Scraped from <a href="https://www.hockey-reference.com/teams/FLA/leaders_career.html" target="_blank" rel="noreferrer">Hockey Reference career leaders</a>.</p>
             {% if updated %}
             <p class="meta">Last refresh: {{ updated.strftime('%Y-%m-%d %H:%M:%S') }} UTC</p>
             {% endif %}
-            <p class="note">This page shows Buffalo Sabres all-time career leaders for each category found on the source page. Use the <code>/api/leaders</code> endpoint for JSON output.</p>
+            <p class="note">This page shows Florida Panthers all-time career leaders for each category found on the source page. Use the <code>/api/leaders</code> endpoint for JSON output.</p>
         </header>
 
         {% for category, leaders in categories.items() %}

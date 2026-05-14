@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from .models import Leader
 
 BASE_URL = "https://www.hockey-reference.com"
-SOURCE_URL = "https://www.hockey-reference.com/teams/BUF/leaders_career.html"
+SOURCE_URL = "https://www.hockey-reference.com/teams/FLA/leaders_career.html"
 
 REQUESTED_CATEGORIES = {
     "Goals",
